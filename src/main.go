@@ -45,4 +45,17 @@ func main() {
 	var result3 = math.Pi * math.Pow(radio, 2)
 	fmt.Println("Circle area is:", result3)
 
+	// Printf
+	name := "Mike"
+	age := 26
+	fmt.Printf("%s is %d years old\n", name, age)
+	fmt.Printf("%v is %v years old\n", name, age)
+
+	// Sprintf
+	message := fmt.Sprintf("%v is %v years old", name, age)
+	fmt.Println(message)
+
+	// Data type
+	fmt.Printf("name type: %T\n", name)
+	fmt.Printf("age type: %T\n", age)
 }
