@@ -9,4 +9,11 @@ func main() {
 
 	fmt.Println("pi:", pi)
 	fmt.Println("pi2:", pi2)
+
+	// Variables declaration
+	number := 12
+	var number1 int = 14
+	var number2 int
+
+	fmt.Println(number, number1, number2)
 }
